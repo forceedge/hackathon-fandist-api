@@ -4,14 +4,17 @@
 <script>
 $(document).ready(function () {
     $('#share').click(function() {
+        console.log("share link clicked");
         var script="The script has been injected \<script type='text/javascript'>
 (function() {
 var fd = document.createElement('script'); fd.type = 'text/javascript'; fd.async = true;
 fd.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.fandi.st/FD-800-01.js';
 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(fd, s);
 })();
-</\script>";
-        $(body).append(script);
+\</script>";
+        console.log("attempting to inject");
+        $('body').append(script);
+        console.log("injected");
         return false
     });
 });
@@ -31,6 +34,6 @@ window.universal_variable = {
       }
 };
 </script>
-<a id="share">click me to register a share</a>
+<a id="share" href="">click me to register a share</a>
 </body>
 </html>
