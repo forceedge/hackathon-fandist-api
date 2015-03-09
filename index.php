@@ -45,13 +45,17 @@ $(document).ready(function () {
 </div>
 
 <!-- Facebook -->
-<a href="http://www.facebook.com/sharer.php?u=http://www.simplesharebuttons.com" class="share" linkType="facebook" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" /></a>
+<a href="http://www.facebook.com/sharer.php?u=<?=$_SERVER['PHP_SELF'];?>" class="share" linkType="facebook" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" /></a>
  
 <!-- Twitter -->
-<a href="http://twitter.com/share?url=http://www.simplesharebuttons.com&text=Simple Share Buttons&hashtags=simplesharebuttons"  class="share" linkType="twitter" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" /></a>
+<a href="http://twitter.com/share?url=<?=$_SERVER['PHP_SELF'];?>&text=Simple Share Buttons&hashtags=simplesharebuttons"  class="share" linkType="twitter" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" /></a>
  
 <!-- Google+ -->
-<a href="https://plus.google.com/share?url=http://www.simplesharebuttons.com"  class="share" linkType="googleplus" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/google.png" alt="Google" /></a>
+<a href="https://plus.google.com/share?url=<?=$_SERVER['PHP_SELF'];?>"  class="share" linkType="googleplus" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/google.png" alt="Google" /></a>
+<br />
+<br />
+Share image:
+<img src="http://www.tropicalflowerss.com/wp-content/uploads/2014/10/blue-flower-girl-dresses.jpg" />
 
 </body>
 </html>
