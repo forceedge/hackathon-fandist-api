@@ -14,6 +14,8 @@ $(document).ready(function () {
         console.log('the type')
         console.log(window.universal_variable.events[0].type);
         window.universal_variable.events[0].type = shareType;
+        console.log('uv');
+        console.log(window.universal_variable);
         console.log("attempting to inject");
         $('#scriptHolder').append('<' + 'script type="text/javascript" src="http://cdn.fandi.st/FD-800-01.js">' + '< /script' + '>');
         console.log("injected");
