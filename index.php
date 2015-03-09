@@ -6,7 +6,7 @@ $(document).ready(function () {
     $('#share').click(function() {
         console.log("share link clicked");
         console.log("attempting to inject");
-        $('#scriptHolder').html('<' + 'script type="text/javascript" src="http://cdn.fandi.st/FD-800-01.js">' + '< /script' + '>');
+        $('#scriptHolder').append('<' + 'script type="text/javascript" src="http://cdn.fandi.st/FD-800-01.js">' + '< /script' + '>');
         console.log("injected");
         return false
     });
@@ -14,6 +14,7 @@ $(document).ready(function () {
 </script>
 </head>
 <body>
+<div id="scriptHolder">
 <script>
 window.universal_variable = {
       "user": {
@@ -27,8 +28,6 @@ window.universal_variable = {
       }
 };
 </script>
-<div id="scriptHolder">
-
 </div>
 <a id="share" href="">click me to register a share</a>
 </body>
