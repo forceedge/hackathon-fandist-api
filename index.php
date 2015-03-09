@@ -16,8 +16,7 @@ $(document).ready(function () {
 <body>
 <div id="scriptHolder">
 <script>
-window.universal_variable = {
-      window.universal_variable = {
+    window.universal_variable = {
           "user": {
               "user_id": "405"
           },
@@ -28,7 +27,7 @@ window.universal_variable = {
               "category": "home"
           },
           debug:true
-      };
+    };
 };
 </script>
 </div>
