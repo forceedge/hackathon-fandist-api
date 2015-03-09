@@ -45,13 +45,13 @@ $(document).ready(function () {
 </div>
 
 <!-- Facebook -->
-<a href="http://www.facebook.com/sharer.php?u=<?="http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";?>" class="share" linkType="facebook" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" /></a>
+<a href="http://www.facebook.com/sharer.php?u=<?=urlencode("http://5.133.177.63" . "$_SERVER[REQUEST_URI]");?>" class="share" linkType="facebook" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" /></a>
  
 <!-- Twitter -->
-<a href="http://twitter.com/share?url=<?="http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";?>&text=Simple Share Buttons&hashtags=simplesharebuttons"  class="share" linkType="twitter" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" /></a>
+<a href="http://twitter.com/share?url=<?=urlencode("http://5.133.177.63" . "$_SERVER[REQUEST_URI]");?>&text=Simple Share Buttons&hashtags=simplesharebuttons"  class="share" linkType="twitter" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" /></a>
  
 <!-- Google+ -->
-<a href="https://plus.google.com/share?url=<?="http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";?>"  class="share" linkType="googleplus" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/google.png" alt="Google" /></a>
+<a href="https://plus.google.com/share?url=<?=urlencode("http://5.133.177.63" . "$_SERVER[REQUEST_URI]");?>"  class="share" linkType="googleplus" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/google.png" alt="Google" /></a>
 <br />
 <br />
 Share image:
