@@ -33,8 +33,8 @@ $(document).ready(function () {
     };
 </script>
 </div>
-<a class="share" linkType="twitter" href="#">click me to register a share to twitter</a>
-<a class="share" linkType="facebook" href="#">click me to register a share to facebook</a>
-<a class="share" linkType="gplus" href="#">click me to register a share to gplus</a>
+<a class="share" linkType="twitter" href="#">click me to register a share to twitter</a><br />
+<a class="share" linkType="facebook" href="#">click me to register a share to facebook</a><br />
+<a class="share" linkType="gplus" href="#">click me to register a share to gplus</a><br />
 </body>
 </html>
