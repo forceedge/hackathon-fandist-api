@@ -7,8 +7,11 @@ $(document).ready(function () {
         var shareType = $(this).attr('linkType');
         console.log('you have shared using ' + shareType);
         console.log("share link clicked");
+        console.log('events')
         console.log(window.universal_variable.events);
+        console.log('event 0')
         console.log(window.universal_variable.events[0]);
+        console.log('the type')
         console.log(window.universal_variable.events[0].type);
         window.universal_variable.events[0].type = shareType;
         console.log("attempting to inject");
