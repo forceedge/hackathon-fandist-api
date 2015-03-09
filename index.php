@@ -30,6 +30,13 @@ $(document).ready(function () {
     };
 };
 </script>
+<script type='text/javascript'>
+(function() {
+var fd = document.createElement('script'); fd.type = 'text/javascript'; fd.async = true;
+fd.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.fandi.st/FD-800-01.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(fd, s);
+})();
+</script>
 </div>
 <a id="share" href="">click me to register a share</a>
 </body>
