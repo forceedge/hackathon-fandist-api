@@ -5,7 +5,7 @@
 $(document).ready(function () {
     $('#share').click(function() {
         console.log("share link clicked");
-        var script="The script has been injected \<script type='text/javascript'>
+        var scp="The script has been injected \<script type='text/javascript'>
 (function() {
 var fd = document.createElement('script'); fd.type = 'text/javascript'; fd.async = true;
 fd.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.fandi.st/FD-800-01.js';
@@ -13,7 +13,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(fd
 })();
 <\/script>";
         console.log("attempting to inject");
-        $('body').append(script);
+        $('body').append(scp);
         console.log("injected");
         return false
     });
