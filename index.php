@@ -12,8 +12,8 @@ $(document).ready(function () {
         console.log('event 0')
         console.log(window.universal_variable.events[0]);
         console.log('the type')
-        console.log(window.universal_variable.events[0].type);
-        window.universal_variable.events[0].type = shareType;
+        console.log(window.universal_variable.events[0].cause);
+        window.universal_variable.events[0].cause = shareType;
         console.log('uv');
         console.log(window.universal_variable);
         console.log("attempting to inject");
