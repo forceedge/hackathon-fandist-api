@@ -17,10 +17,10 @@ $(document).ready(function () {
 <script>
 window.universal_variable = {
       "user": {
-           "user_id": "1000001"
+           "user_id": ""
       },
       "events": [
-           { "type": "shares", "cause": "twitter", "effect": "1270-LnWJxpyH0" }
+           { "type": "hits"
       ],
       "page": {
            "category": "home"
