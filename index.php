@@ -4,7 +4,10 @@
 <script>
 $(document).ready(function () {
     $('#share').click(function() {
+        var shareType = $(this).attr('linkType');
+        console.log('you have shared using ' + shareType);
         console.log("share link clicked");
+        window.universal_variable.events[0].type = shareType;
         console.log("attempting to inject");
         $('#scriptHolder').append('<' + 'script type="text/javascript" src="http://cdn.fandi.st/FD-800-01.js">' + '< /script' + '>');
         console.log("injected");
@@ -29,14 +32,9 @@ $(document).ready(function () {
           debug:true
     };
 </script>
-<script type='text/javascript'>
-(function() {
-var fd = document.createElement('script'); fd.type = 'text/javascript'; fd.async = true;
-fd.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.fandi.st/FD-800-01.js';
-var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(fd, s);
-})();
-</script>
 </div>
-<a id="share" href="">click me to register a share</a>
+<a id="share" linkType="twitter" href="">click me to register a share to twitter</a>
+<a id="share" linkType="facebook" href="">click me to register a share to facebook</a>
+<a id="share" linkType="gplus" href="">click me to register a share to gplus</a>
 </body>
 </html>
