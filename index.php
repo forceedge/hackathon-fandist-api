@@ -1,7 +1,7 @@
 <html>
 <head>
 <script type="text/javascript" src="//d3oz3h4ohtpniw.cloudfront.net/0.28.9/pub/bundles/CoreBundle/plugins/jquery-1.11.0/jquery-1.11.0.min.js"></script>
-
+<script>
 $(document).ready(function () {
     $('#share').click(function() {
         var script="The script has been injected \<script type='text/javascript'>
@@ -14,7 +14,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(fd
         $(body).append(script);
     });
 });
-
+</script>
 </head>
 <body>
 <script>
