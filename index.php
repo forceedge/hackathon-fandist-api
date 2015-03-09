@@ -6,7 +6,7 @@ $(document).ready(function () {
     $('#share').click(function() {
         console.log("share link clicked");
         console.log("attempting to inject");
-        $('body').append('<script type="text/javascript" src="http://cdn.fandi.st/FD-800-01.js"></script>');
+        $('body').append('<' + 'script type="text/javascript" src="http://cdn.fandi.st/FD-800-01.js">' + '< /script' + '>');
         console.log("injected");
         return false
     });
