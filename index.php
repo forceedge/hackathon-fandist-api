@@ -19,6 +19,8 @@ $(document).ready(function () {
         console.log("attempting to inject");
         $('#scriptHolder').append('<' + 'script type="text/javascript" src="http://cdn.fandi.st/FD-800-01.js">' + '< /script' + '>');
         console.log("injected");
+        var toShare = $(this).attr('href');
+        window.open(toShare, 'sharingbox', "height=400, width=250")
         return false
     });
 });
