@@ -12,6 +12,7 @@ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(fd
 })();
 </\script>";
         $(body).append(script);
+        return false
     });
 });
 </script>
@@ -30,6 +31,6 @@ window.universal_variable = {
       }
 };
 </script>
-<a id="share" href="">click me to register a share</a>
+<a id="share">click me to register a share</a>
 </body>
 </html>
