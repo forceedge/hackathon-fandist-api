@@ -28,7 +28,6 @@ $(document).ready(function () {
           },
           debug:true
     };
-};
 </script>
 <script type='text/javascript'>
 (function() {
