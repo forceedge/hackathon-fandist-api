@@ -11,7 +11,7 @@ var fd = document.createElement('script'); fd.type = 'text/javascript'; fd.async
 fd.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.fandi.st/FD-800-01.js';
 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(fd, s);
 })();
-\</script>";
+<\/script>";
         console.log("attempting to inject");
         $('body').append(script);
         console.log("injected");
