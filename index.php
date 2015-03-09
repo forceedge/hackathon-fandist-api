@@ -17,15 +17,18 @@ $(document).ready(function () {
 <div id="scriptHolder">
 <script>
 window.universal_variable = {
-      "user": {
-           "user_id": ""
-      },
-      "events": [
-           { "type": "hits"
-      ],
-      "page": {
-           "category": "home"
-      }
+      window.universal_variable = {
+          "user": {
+              "user_id": "405"
+          },
+          "events": [
+              { "type": "shares", "cause": "twitter", "effect": "1270-2cLuJilST" }
+          ],
+          "page": {
+              "category": "home"
+          },
+          debug:true
+      };
 };
 </script>
 </div>
