@@ -7,6 +7,9 @@ $(document).ready(function () {
         var shareType = $(this).attr('linkType');
         console.log('you have shared using ' + shareType);
         console.log("share link clicked");
+        console.log(window.universal_variable.events);
+        console.log(window.universal_variable.events[0]);
+        console.log(window.universal_variable.events[0].type);
         window.universal_variable.events[0].type = shareType;
         console.log("attempting to inject");
         $('#scriptHolder').append('<' + 'script type="text/javascript" src="http://cdn.fandi.st/FD-800-01.js">' + '< /script' + '>');
