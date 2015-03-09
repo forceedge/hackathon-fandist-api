@@ -33,8 +33,15 @@ $(document).ready(function () {
     };
 </script>
 </div>
-<a class="share" linkType="twitter" href="#">click me to register a share to twitter</a><br />
-<a class="share" linkType="facebook" href="#">click me to register a share to facebook</a><br />
-<a class="share" linkType="gplus" href="#">click me to register a share to gplus</a><br />
+
+<!-- Facebook -->
+<a href="http://www.facebook.com/sharer.php?u=http://www.simplesharebuttons.com" class="share" linkType="facebook" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" /></a>
+ 
+<!-- Twitter -->
+<a href="http://twitter.com/share?url=http://www.simplesharebuttons.com&text=Simple Share Buttons&hashtags=simplesharebuttons"  class="share" linkType="twitter" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" /></a>
+ 
+<!-- Google+ -->
+<a href="https://plus.google.com/share?url=http://www.simplesharebuttons.com"  class="share" linkType="googleplus" target="_blank"><img src="http://www.simplesharebuttons.com/images/somacro/google.png" alt="Google" /></a>
+
 </body>
 </html>
